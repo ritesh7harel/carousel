@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script rel="script" src="main.js" type="text/javascript" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="./assests/bg-1.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="./assests/bg-2.jpg"/>
+            </div>
+            <div class="slide">
+                <img src="./assests/bg-3.jpg"/>
+            </div>
+            <div class="slide">
+                <div>Hello,Last slide...!</div>
+            </div>
+        </div>
+        <div class="manualButtons">
+            <button class="arrows prev" onclick="prevSlide(-1)">
+                <span><i class="fas fa-angle-left"></i></span>
+            </button>
+            <button class="arrows next" onclick="nextSlide(1)">
+                <span><i class="fas fa-angle-right"></i></span>
+            </button>
+        </div>
+    </div>
+    <div class="rightData">
+        Hello, Simple Carousel is here :) We can plug in any website easily!
+    </div>
+</div>
+</body>
+</html>
